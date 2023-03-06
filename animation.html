@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation1</title>
+    <style>
+ .container {
+        position: relative;
+        
+        
+      }
+      .cadre1 {
+        position: relative;
+        top: 5rem;
+        left: 5rem;
+        width: 8rem;
+        block-size: 8rem;
+        background: #ed1010;
+        border: 0.1rem solid rgb(253, 248, 248);
+        text-align: center;
+        justify-content: center;
+        border-color:azure
+
+        
+       
+      }
+      .cadre2{
+        position: absolute;
+        width: 8rem;
+        height: 8rem;
+        background: #ed1010;
+        border: 0.1rem solid rgb(242, 238, 238);
+        transform: rotate(45deg);
+        z-index: 2;
+      }
+    
+
+      
+    
+     .very{
+        color: white;
+        font-size: 0.88rem;
+     } 
+     .texte{
+        font-size: 0.85rem;
+        position: absolute;
+        z-index: 5;
+        left: 3rem;
+       
+     }
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cadre1">
+            <div class="texte">
+                <p>CSS</p>
+                <p>is</p>
+                <p class="very">VERY</p>
+                <p>cool</p>
+            </div>
+            <div class="cadre2"></div>
+         </div>
+       
+     </div>
+</div>
+
+
+   
+
+
+
+
+
+
+
+</body>
+</html>
